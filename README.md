@@ -1,4 +1,4 @@
-# WMS SIM (Sistem Manajemen Gudang)
+# WMS (Warehouse Management System) 
 
 Sebuah aplikasi Sistem Manajemen Gudang (Warehouse Management System) berbasis web yang dibangun dengan PHP Native dan MySQL. Aplikasi ini dirancang untuk mempermudah pencatatan, pemantauan, dan pengelolaan stok barang di gudang beserta lokasi penyimpanannya.
 
@@ -29,17 +29,6 @@ Aplikasi ini memiliki 3 level pengguna:
 - **Backend**: PHP 8.x (Native)
 - **Database**: MySQL / MariaDB (MySQLi Extension)
 
-## 📂 Struktur Direktori Terbaru
-Project ini menggunakan arsitektur modular yang rapi:
-- `auth/` - Modul otentikasi (Login/Logout).
-- `config/` - File konfigurasi utama (`koneksi.php`, `constants.php`).
-- `db/` - Berisi file *dump* database SQL.
-- `includes/` - Komponen UI yang dapat digunakan kembali (`header.php`, `sidebar.php`).
-- `master/` - Halaman-halaman untuk manajemen Master Data.
-- `transaksi/` - Halaman-halaman operasional dan transaksi stok.
-- `laporan/` - Modul pelaporan.
-- `index.php` - Halaman Dashboard utama.
-
 ## ⚙️ Panduan Instalasi (Local)
 
 1. Pastikan komputer Anda telah terinstal web server lokal (seperti **XAMPP**, **Laragon**, dsb).
@@ -55,6 +44,3 @@ Project ini menggunakan arsitektur modular yang rapi:
    - **Admin**: `admin` / `123456`
    - **Operator**: `operator` / `123456`
    - **Requester**: `requester` / `123456`
-
----
-*Dibuat untuk kebutuhan operasional pergudangan modern & rapi.*
